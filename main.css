@@ -1,0 +1,188 @@
+/* Estilos generales */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5dfb4;
+  color: #333;
+  padding-top: 60px;
+}
+
+/* Barra de navegación fija en la parte superior */
+header {
+  background-color: #2e3b4e;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.2em;
+  position: fixed; /* Fija la barra en la parte superior */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+  border-radius: 10px;
+}
+
+nav a {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sección de contenido */
+main {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Ajustes para las secciones */
+#inicio,
+#videojuegos,
+#series,
+#tecnologia {
+  padding-top: 20px;
+}
+
+/* Sección de inicio */
+#inicio {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#inicio h1 {
+  font-size: 3em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+#inicio h2 {
+  font-size: 2em;
+  color: #444;
+}
+
+#inicio p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+
+/* Sección de videojuegos */
+#videojuegos {
+  background-color: #93a8a0; /* Fondo claro para la sección */
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#videojuegos h2 {
+  font-size: 2.5em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+#videojuegos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#videojuegos li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#videojuegos img {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 2px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Sección de series */
+#series {
+  background-color: #93a8a0;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#series h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#series ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#series li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Sección de musica */
+#Musica {
+  background-color: #93a8a0;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Musica h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#Musica p {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+/* Sección de enlaces */
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+section a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+section a:hover {
+  color: #0066cc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #3d74c7;
+  color: white;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+  border-top: 1px solid #ddd;
+}
